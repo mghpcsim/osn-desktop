@@ -16,4 +16,5 @@ nano
 # rclone for ro demo
 rclone
 
-
+# screen because it's amazing
+screen
