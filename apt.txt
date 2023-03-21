@@ -13,6 +13,7 @@ firefox
 vim
 nano
 
-# for setting OSN wallpaper
-libxcb-image0-dev
+# rclone for ro demo
+rclone
+
 
