@@ -10,4 +10,3 @@ xfce4
 firefox
 
 # for setting OSN wallpaper
-xwallpaper
