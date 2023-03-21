@@ -9,7 +9,10 @@ xfce4
 # Everyone needs a browser
 firefox
 
-# vim is nice
+# editors are nice but emacs is too big lol
 vim
+nano
 
 # for setting OSN wallpaper
+libxcb-image0-dev
+

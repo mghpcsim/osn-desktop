@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "hi from post" >> /home/jovyan/.bashrc
+echo 'BLUE="\[$(tput setaf 4)\]"' >> /home/jovyan/.bashrc
+echo 'RESET="\[$(tput sgr0)\]"' >> /home/jovyan/.bashrc
+echo 'PS1="${BLUE}osn-desktop${RESET} $ "' >> /home/jovyan/.bashrc
