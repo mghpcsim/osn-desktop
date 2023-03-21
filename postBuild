@@ -3,7 +3,7 @@
 echo 'BLUE="\[$(tput setaf 4)\]"' >> /home/jovyan/.bashrc
 echo 'RESET="\[$(tput sgr0)\]"' >> /home/jovyan/.bashrc
 echo 'PS1="${BLUE}osn-desktop${RESET} \w $ "' >>   /home/jovyan/.bashrc
-echo 'BUCKET=cis220170-bucket01' >>                /home/joyvan/.bashrc
-echo 'OSN="OSN-tutorial:cis220170-bucket01"' >>    /home/joyvan/.bashrc
+echo BUCKET=cis220170-bucket01 >>                /home/joyvan/.bashrc
+echo OSN=OSN-tutorial:cis220170-bucket01 >>    /home/joyvan/.bashrc
 
 wget -qO- https://mghp.osn.xsede.org/cis220170-bucket01/osn-desktop-config-files.tar | tar -x -C /home/jovyan
