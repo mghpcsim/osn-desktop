@@ -1,6 +1,6 @@
 # Template for Linux Desktop Apps on Binder / JupyterHub
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yuvipanda/binder-desktop-app-template/HEAD?urlpath=desktop)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mghpcsim/osn-desktop.git/HEAD)
 
 Generate a Git repository that can run any Linux GUI application in
 the browser via [mybinder.org](https://mybinder.org) or any JupyterHub
