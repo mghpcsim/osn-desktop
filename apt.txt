@@ -19,5 +19,6 @@ rclone
 # screen because it's amazing
 screen
 
-# gnuplot for viz
+# packages for viz
 gnuplot
+xdg-utils
