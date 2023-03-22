@@ -9,3 +9,6 @@ echo 'RESET="\[$(tput sgr0)\]"' >> /home/jovyan/.bashrc
 echo 'PS1="${BLUE}osn-desktop${RESET} \w $ "' >>   /home/jovyan/.bashrc
 
 wget -qO- https://mghp.osn.xsede.org/cis220170-bucket01/osn-desktop-config-files.tar | tar -x -C /home/jovyan
+
+git clone https://github.com/mghpcsim/osn-tutorial.git
+
