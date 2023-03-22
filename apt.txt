@@ -22,3 +22,4 @@ screen
 # packages for viz
 gnuplot
 xdg-utils
+ristretto
