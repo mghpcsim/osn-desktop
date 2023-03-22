@@ -12,3 +12,4 @@ wget -qO- https://mghp.osn.xsede.org/cis220170-bucket01/osn-desktop-config-files
 
 git clone https://github.com/mghpcsim/osn-tutorial.git
 
+echo done
