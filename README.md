@@ -1,27 +1,17 @@
-# Template for Linux Desktop Apps on Binder / JupyterHub
+# OSN-desktop for use on Binder / JupyterHub
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mghpcsim/osn-desktop.git/HEAD)
 
-Generate a Git repository that can run any Linux GUI application in
-the browser via [mybinder.org](https://mybinder.org) or any JupyterHub
-from this template repository!
 
 Uses [jupyter-remote-desktop-proxy](https://github.com/jupyterhub/jupyter-remote-desktop-proxy)
 to work.
 
 ## How to use this repo
 
-### 1. Create a new repo using this as a template
+### Install the applications you want
 
-Use the [Use this template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template)
-button on GitHub. Use a descriptive name representing the
-GUI app you are running / demoing. You can then follow the rest of
-the instructions in this README from your newly created repository.
-
-### 2. Install the application you want
-
-First the GUI application you want needs to be actually installed in
-the image. There are three main ways to do this:
+Install the applications you want. 
+There are three main ways to do this:
 
 #### From `apt` via `apt.txt`
 
@@ -48,7 +38,9 @@ file to download the app manually (wia `wget` maybe) and extract the executable
 application somewhere. You don't have `root` access here, so some of the things
 you need to do might be limited. Consider writing your own `Dockerfile` instead.
 
-### 3. Setup a desktop shortcut to your app
+Spack and EasyBuild are very useful here but require some work and patience to setup.
+
+### Setup a desktop shortcut for GUI apps
 
 When the repo is launched on Binder / desktop is used on JupyterHub, a shortcut
 that users can click to launch your app is pretty nice. This template contains
@@ -59,20 +51,3 @@ desktops indicate a shortcut file) are put on the user Desktop.
 1. Rename the file from `app.desktop` to `<your-app-name>.desktop`
 2. Open the file, and fill in values for `Name`, `Exec` and optionally `Icon`
 3. Commit the file
-
-### 4. Modify the Binder Badge in the README.md
-
-The 'Launch on Binder' badge in this README points to the template repository.
-You should modify it to point to your own repository. Keep the `urlpath=desktop`
-parameter intact - that is what makes sure your repo will launch directly into
-a Linux desktop.
-
-### 5. Cleanup the README.md to document your application
-
-Finally, cleanup your README.md to document the application in your repo! Users
-of your repo want to see the application, not instructions on how to setup the repo :)
-
-## Inspiration
-
-Inspriation to make this particular template repository comes from conversation
-with my friend [Sanjay Bhangar](https://twitter.com/sanjaybhangar).
