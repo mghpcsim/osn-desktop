@@ -5,4 +5,3 @@ dependencies:
   - pip
   - pip:
       - jupyter-remote-desktop-proxy
-      - pyjokes
