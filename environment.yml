@@ -2,6 +2,11 @@ channels:
   - conda-forge
 dependencies:
   - websockify
+  - branca
+  - folium
+  - pandas
+  - matplotlib
+  - numpy
   - pip
   - pip:
       - jupyter-remote-desktop-proxy

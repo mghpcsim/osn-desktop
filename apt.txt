@@ -23,5 +23,3 @@ screen
 gnuplot
 xdg-utils
 ristretto
-tumbler
-imagemagick
